@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif ;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 130vh;
+    min-width: 100vw;
+    position: relative;
+    background: #ACEFC5;
+}
+
+.title{
+    padding: 5rem;
+}
+
+.title h2{
+    font-size: 60px;
+    color: #009B3A;
+}
+
+.title h1{
+    font-size: 90px;
+    color: #26356A;
+}
+
+div.logo img{
+    position: absolute;
+    left: 16%;
+    top: 5%;
+    width: 15%;
+}
+
+section{
+    padding: 5rem;
+    background: #34483C;
+    width: 25.5vw;
+    height: 68vh;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+div#input{
+    width: 350px;
+    height: 5vh;
+    background: #1E1E1E;
+    border-radius: 10px;
+    color: #ffff;
+    padding: 1rem;
+}
+
+.btn{
+    width: 85px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    background: #1E1E1E;
+    font-size: 25px;
+    color: #08B457;
+    font-weight: 300;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.branco{
+    width: 125px;
+    height: 65px;
+    margin-left: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    background: #ffff;
+    font-size: 25px;
+    color: #1E1E1E;
+    font-weight: 300;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.nulo{
+    width: 125px;
+    height: 65px;
+    position: absolute;
+    right: 74%;
+   top: 61%;
+    cursor: pointer;
+    background: #132219;
+    font-size: 25px;
+    color: #ffff;
+    font-weight: 300;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.limpar{
+    width: 350px;
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    background: #1E1E1E;
+    font-size: 25px;
+    color: #ffff;
+    font-weight: 300;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.votar{
+    width: 350px;
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    background: #26356A;
+    font-size: 25px;
+    color: #ffff;
+    font-weight: 300;
+    border-style: none;
+    border-radius: 8px;
+}
+
+/*divs do create element*/
+div#images img{
+    position: absolute;
+    left: 53%;
+    top: 25%;
+    width: 35%;
+    height: 40%;
+}
+
+div#aviso{
+    position: absolute;
+    left: 56%;
+    top: 68%;
+    color: #0239A1;
+    font-size: 35px;
+}
+
+div#btn {
+    position: absolute;
+    left: 48%;
+    top: 75%;
+}
+
+#btn button{
+    margin-left: 195px;
+    width: 150px;
+    height: 6vh;
+    background: #009B3A;
+    color: #ffff;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 10px;
+}

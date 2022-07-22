@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Eleições 2022</title>
+</head>
+<body>
+    <div class="title">
+        <h2>Eleições</h2>
+        <h1>2022</h1>
+
+        <div class="logo">
+            <img src="img/Map_of_Brazil_with_flag.svg.png" alt="icon">
+        </div>
+    </div>
+
+    <section>
+        <div id="input"></div> <!--div que virará nosso input para a entrada de dados-->
+            <div class="table">
+                <table>
+                    <tr>
+                        <td><button class="btn" onclick="valores('7')">7</button></td>
+                        <td><button class="btn" onclick="valores('8')">8</button></td>
+                        <td><button class="btn" onclick="valores('9')">9</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn" onclick="valores('4')">4</button></td>
+                        <td><button class="btn" onclick="valores('5')">5</button></td>
+                        <td><button class="btn" onclick="valores('6')">6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn" onclick="valores('1')">1</button></td>
+                        <td><button class="btn" onclick="valores('2')">2</button></td>
+                        <td><button class="btn" onclick="valores('3')">3</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="branco" onclick="branco()">Branco</button></td>
+                        <td colspan="2"><button class="nulo" onclick="Nulo()">Nulo</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><button class="limpar" onclick="limpar()">Limpar</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><button class="votar" onclick="votar()">Votar</button></td>
+                    </tr>
+                </table>
+            </div>
+    </section>
+
+    <div id="images"></div>
+    <div id="aviso"></div>
+    <div id="btn"></div>
+    <script src="index.js"></script>
+</body>
+</html>
